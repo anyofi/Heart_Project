@@ -64,9 +64,7 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 4. Загрузите CSV-файл с данными пациентов  
    - Пример структуры файла `heart_test.csv`:
      ```csv
-     age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal
-     52,1,0,125,212,0,1,168,0,1.0,2,2,3
-     43,0,1,130,204,0,0,155,0,3.5,1,0,2
+     Age	Cholesterol	Heart rate	Diabetes	Family History	Smoking	Obesity	Alcohol Consumption	Exercise Hours Per Week	Diet	Previous Heart Problems	Medication Use	Stress Level	Sedentary Hours Per Day	Income	BMI	Triglycerides	Physical Activity Days Per Week	Sleep Hours Per Day	Blood sugar	CK-MB	Troponin	Gender	Systolic blood pressure	Diastolic blood pressure	id	   0	0.494382	0.264286	0.062328	0.0	1.0	1.0	1.0	1.0	0.361618	2	0.0	0.0	8.0	0.194370	0.587759	0.283490	0.306494	1.0	0.333333	0.227018	0.048229	0.036512	Male	0.283871	0.372093	7746
      ```
 
 5. Нажмите **Execute**
